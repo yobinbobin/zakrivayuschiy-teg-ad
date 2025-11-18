@@ -67,7 +67,6 @@
   border: 2px solid #000;
   inline-size: clamp(23.438rem, 17.634rem + 29.018vi, 43.75rem);
   background-color: #fff;
-  /* max-inline-size: 696px; */
 }
 
 .card__title {
@@ -121,7 +120,7 @@
 
 @supports (text-stroke: 1px var(--stroke-color)) or
   (-webkit-text-stroke: 1px var(--stroke-color)) {
-  .label{
+  .label {
     text-shadow: none;
     text-stroke: 1px var(--stroke-color);
     -webkit-text-stroke: 1px var(--stroke-color);
@@ -215,7 +214,7 @@
 }
 
 
-.filter-sepia{
+.filter-sepia {
   filter: sepia()
 }
 
